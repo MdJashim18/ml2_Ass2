@@ -43,7 +43,8 @@ body {
     line-height: 24px;
     color: #8987A1;
 }
-.nav-content ul li:nth-child(1) a{
+
+.nav-content ul li:nth-child(1) a {
     text-decoration: none;
     font-family: "Inter", sans-serif;
     font-weight: bold;
@@ -51,22 +52,26 @@ body {
     line-height: 24px;
     color: #252432;
 }
+
 .nav-cart {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 8px;
 }
-.nav-cart h5{
+
+.nav-cart h5 {
     font-family: "Inter", sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     color: #000000;
 }
-.nav-cart i{
+
+.nav-cart i {
     color: #000000;
 }
+
 .nav-image {
     padding: 5px 0;
 }
@@ -77,35 +82,40 @@ body {
 
 
 
-.banner{
+.banner {
     width: 85%;
     margin: 100px auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.banner-content{
+
+.banner-content {
     width: 50%;
     padding-right: 120px;
 }
-.banner-content h1:nth-child(1){
+
+.banner-content h1:nth-child(1) {
     font-family: "Noto Serif", serif;
     font-size: 65px;
     font-weight: bold;
     color: #000000;
     margin: 5px 0;
 }
-.banner-content h1 span{
+
+.banner-content h1 span {
     color: #E95A08;
 }
-.banner-content h1:nth-child(2){
+
+.banner-content h1:nth-child(2) {
     font-family: "Noto Serif", serif;
     font-size: 65px;
     font-weight: bold;
     color: #E95A08;
     margin: 5px 0;
 }
-.banner-content p{
+
+.banner-content p {
     font-size: 22px;
     font-family: "Inter", sans-serif;
     font-weight: 400;
@@ -113,21 +123,24 @@ body {
     color: #000000;
     opacity: 50%;
 }
-.banner-image{
+
+.banner-image {
     width: 50%;
 }
-.banner-image img{
+
+.banner-image img {
     width: 100%;
 }
 
 
 
 
-.plan-section{
+.plan-section {
     width: 85%;
     margin: 100px auto;
 }
-.plan-section h2{
+
+.plan-section h2 {
     font-family: "Noto Serif", serif;
     font-size: 50px;
     font-weight: bold;
@@ -135,10 +148,12 @@ body {
     margin: 5px 0;
     text-align: center;
 }
-.plan-section h2 span{
+
+.plan-section h2 span {
     color: #E95A08;
 }
-.plan-section p{
+
+.plan-section p {
     font-size: 22px;
     font-family: "Inter", sans-serif;
     font-weight: 400;
@@ -148,17 +163,21 @@ body {
     opacity: 50%;
     text-align: center;
 }
-.cart{
+
+.cart {
     width: 300px;
 }
-.cart-img{
+
+.cart-img {
     margin-bottom: 10px;
 }
-.cart-img img{
+
+.cart-img img {
     width: 100%;
     height: 300px;
 }
-.cart-content h3{
+
+.cart-content h3 {
     color: #111111;
     font-size: 22px;
     font-family: "Inter", sans-serif;
@@ -166,7 +185,8 @@ body {
     text-align: center;
     margin: 5px 0;
 }
-.cart-content h4{
+
+.cart-content h4 {
     color: #111111;
     font-size: 22px;
     font-family: "Inter", sans-serif;
@@ -174,7 +194,8 @@ body {
     text-align: center;
     margin: 5px 0;
 }
-.cart-content button{
+
+.cart-content button {
     padding: 16px 50px;
     background-color: #E95A08;
     color: #FFFFFF;
@@ -185,10 +206,11 @@ body {
     font-size: 16px;
     font-weight: 500;
 }
-.plan-cart-container{
+
+.plan-cart-container {
     margin: 80px 0;
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(4, 1fr);
     justify-items: center;
     gap: 20px;
 }
@@ -197,12 +219,266 @@ body {
 
 
 
-.flower-section{
+.flower-section {
     width: 85%;
     margin: 100px auto;
 }
-.flower{
+
+.flower {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    gap: 10px;
+}
+
+.flower-img {
+    width: 50%;
+    padding: 40px 0;
+}
+
+.flower-img img {
+    width: 540px;
+    height: 597px;
+}
+
+.flower-content {
+    width: 50%;
+    padding: 80px 0;
+}
+
+.flower-content h1 {
+    font-family: "Noto Serif", serif;
+    font-size: 50px;
+    color: #000000;
+    font-weight: bold;
+    line-height: auto;
+    margin-bottom: 20px;
+}
+
+.flower-content ul li {
+    font-size: 22px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    margin: 20px 0;
+    color: #000000;
+    opacity: 50%;
+}
+
+
+
+
+
+
+.deal-section {
+    width: 85%;
+    margin: 100px auto;
+}
+
+.deal-section h2 {
+    font-family: "Noto Serif", serif;
+    font-size: 50px;
+    font-weight: bold;
+    color: #000000;
+    margin: 5px 0;
+    text-align: center;
+}
+
+.deal-section h2 span {
+    color: #E95A08;
+}
+
+.deal-section p {
+    font-size: 22px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    margin: 5px 0;
+    padding: 0 250px;
+    color: #000000;
+    opacity: 50%;
+    text-align: center;
+}
+
+.deal-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 30px;
+    margin: 100px 0;
+}
+
+.deal-img {
+    width: 50%;
+    /* padding: 10px; */
+
+
+}
+
+.deal-img1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../assets/deal-bloom.png');
+    margin-bottom: 10px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 202px;
+    border: none;
+    border-radius: 22px;
+}
+
+.deal-img2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../assets/deal-ana.png');
+    margin-top: 10px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 202px;
+    border: none;
+    border-radius: 22px;
+}
+
+.deal-img4 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../assets/deal-zabo.png');
+    margin: 10px 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 430px;
+    border: none;
+    border-radius: 22px;
+    /* background: fixed; */
+}
+
+.heading1 {
+    font-family: "Noto Serif", serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.deal-img1 h5,
+.deal-img2 h5 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.deal-an {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.deal-img4 h4 {
+    font-family: "Noto Serif", serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 150px;
+}
+
+.deal-img4 h5 {
+    padding: 26px 50px;
+    text-align: center;
+
+}
+
+.deal-img4 h5 a {
+    color: #FFFFFF;
+    font-family: "Inter", sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.join-section{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.001), rgba(0, 0, 0, 0.001)), url('../assets/news-letter-bg.png');
+    height: 540px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.Join{
+    padding: 200px 0;
+}
+.Join h1{
+    font-family: "Noto Serif", serif;
+    font-size: 50px;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.jion-input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.jion-input input{
+    padding: 8px 20px;
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    /* opacity: 50%; */
+}
+.input-email{
+    width: 640px;
+    height: 50px;
+    border: none;
+}
+.inp-btn{
+    width: 186px;
+    height: 50px;
+    border: none;
+    background-color: #E95A08;
+    color: #FFFFFF;
+}
+
+.footer-section{
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    gap: 50px;
+    padding: 50px 0;
+}
+.flower-img{
+    width: 25%;
+}
+.footer-img p{
+    font-size: 22px;
+    font-weight: 400;
+    color: #000000;
+    opacity: 50%;
+    margin-top: 20px;
+}
+.footer-list{
+    width: 25%;
+}
+.footer-link{
+    width: 25%;
+}
+.footer-list ul li{
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #6B7280;
+    line-height: 50px;
+    list-style: none;
+}
+.footer-link{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.footer-link img{
+    width: 36px;
+    height: 36px;
 }
