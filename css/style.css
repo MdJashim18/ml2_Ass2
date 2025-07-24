@@ -227,17 +227,25 @@ body {
 .flower {
     display: flex;
     justify-content: space-between;
-    /* align-items: center; */
-    gap: 10px;
+    gap: 40px;
 }
 
 .flower-img {
+    position: relative;
     width: 50%;
     padding: 40px 0;
 }
+/* .flower-img1{
+    position: relative;
+} */
+.flower-img2{
+    position: absolute;
+    top: -40px;
+    right: -60px;
+}
 
 .flower-img img {
-    width: 540px;
+    width: 100%;
     height: 597px;
 }
 
@@ -449,7 +457,7 @@ body {
     gap: 50px;
     padding: 50px 0;
 }
-.flower-img{
+.footer-img{
     width: 25%;
 }
 .footer-img p{
